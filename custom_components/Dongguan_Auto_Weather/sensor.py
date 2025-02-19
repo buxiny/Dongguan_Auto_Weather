@@ -11,10 +11,10 @@ from homeassistant.helpers.entity import Entity
 
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "dongguan_weather"
+DOMAIN = "dongguan_auto_weather"
 SCAN_INTERVAL = timedelta(minutes=3)    # 每3分钟更新
 
-STATION_MAPPING = {
+STATION_MAPPING = {                    # 自己增加站点
     "麻涌海心沙": "mayong_haixinsha",
     "麻涌镇大步村委": "mayong_dabu",
     "望牛墩官洲水闸": "wangniudun_gzshuizha"
