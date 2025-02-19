@@ -38,7 +38,6 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
 
 class DGFXSensor(SensorEntity):
     """自定义传感器实体"""
-
     def __init__(self, chinese_name, english_name, sensor_type):
         self._chinese_name = chinese_name
         self._english_name = english_name
