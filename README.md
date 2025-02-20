@@ -9,7 +9,7 @@ http://120.197.146.91/Mobile/Monitor
 
 1 手动安装，放入 /custom_components/ 目录（默认3分钟更新一次数据）
 
-~~2 hacs安装 CUSTOM REPOSITORIES中填入：https://github.com/buxiny/Dongguan_Auto_Weather~~
+2 hacs安装 CUSTOM REPOSITORIES中填入：https://github.com/buxiny/Dongguan_Auto_Weather
 
 # 配置
 
