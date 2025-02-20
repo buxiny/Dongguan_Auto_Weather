@@ -14,17 +14,9 @@ _LOGGER = logging.getLogger(__name__)
 DOMAIN = "dongguan_auto_weather"
 SCAN_INTERVAL = timedelta(minutes=3)    # 默认3分钟更新一次数据
 
-# 站点名称列表，可直接增减
-STATIONS = [
-    "麻涌海心沙",
-    "南城中心公园",
-    "莞城可园"
-]
-
+STATIONS = ["麻涌海心沙", "南城中心公园", "莞城可园"]   # 站点名称列表，可直接增减
 URL = "http://120.197.146.91/Mobile/Monitor"
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-}
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
 PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({})
 
