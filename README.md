@@ -13,16 +13,17 @@ http://120.197.146.91/Mobile/Monitor
 
 # 配置
 
-Example configuration.yaml:
+修改： configuration.yaml:
 
 ```
 sensor:
   - platform: dongguan_auto_weather  # 东莞气象站实时数据（风向、温度等）
 ```
 
-Example /custom_components/dongguan_auto_weather/sensor.py
+修改： /custom_components/dongguan_auto_weather/sensor.py
 
 ```
+...
 DOMAIN = "dongguan_auto_weather"
 SCAN_INTERVAL = timedelta(minutes=3)    # 默认3分钟更新一次数据
 
@@ -32,6 +33,9 @@ STATIONS = [
     "南城中心公园",
     "莞城可园"
 ]
+
+...
+
 ```
 
 
