@@ -11,7 +11,8 @@ http://120.197.146.91/Mobile/Monitor
 
 ~~2 hacs安装 CUSTOM REPOSITORIES中填入：https://github.com/buxiny/Dongguan_Auto_Weather~~
 
-配置
+# 配置
+
 Example configuration.yaml:
 
 ```
