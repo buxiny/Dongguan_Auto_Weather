@@ -24,6 +24,7 @@ sensor:
 
 ```
 ...
+
 DOMAIN = "dongguan_auto_weather"
 SCAN_INTERVAL = timedelta(minutes=3)    # 默认3分钟更新一次数据
 
