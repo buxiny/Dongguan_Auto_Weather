@@ -1,5 +1,4 @@
-
-<a target="_blank" rel="noopener noreferrer"><img width="100" src="http://120.197.146.91/image/mobile/nav-icon11.png" alt="Vue logo"></a></p>
+<p align="center"><a target="_blank" rel="noopener noreferrer"><img width="100" src="http://120.197.146.91/image/mobile/nav-icon11.png" alt="Vue logo"></a></p>
 
 
 # 简介
