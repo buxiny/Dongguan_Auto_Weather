@@ -11,14 +11,14 @@ from homeassistant.helpers.entity import Entity
 
 _LOGGER = logging.getLogger(__name__)
 
-DOMAIN = "dgfx_monitor"
-SCAN_INTERVAL = timedelta(minutes=5)
+DOMAIN = "dongguan_auto_weather"
+SCAN_INTERVAL = timedelta(minutes=3)    # 默认3分钟更新一次数据
 
 # 站点名称列表，可直接增减
 STATIONS = [
     "麻涌海心沙",
-    "麻涌镇大步村委",
-    "望牛墩官洲水闸"
+    "南城中心公园",
+    "莞城可园"
 ]
 
 URL = "http://120.197.146.91/Mobile/Monitor"
